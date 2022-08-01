@@ -125,17 +125,17 @@
    <div class="FormCon">
     <form class="FormConFields" action="https://formsubmit.co/740d68aa3ce764d25e54e7da5b843b56" method="POST">
         
-       <input class="TextInput" type="text"  placeholder="  Nombre" required
+       <input class="TextInput" type="text" name="Nombre"  placeholder="  Nombre" required
               oninvalid="this.setCustomValidity('Porfavor ingrese un nombre')"
   oninput="this.setCustomValidity('')"/ maxlength="40">   
-        <input  class="TextInput" type="Email"  placeholder="  Email" required
+        <input  class="TextInput" type="Email" name="Email"  placeholder="  Email" required
                /oninvalid="this.setCustomValidity('Porfavor ingrese un email')"
   oninput="this.setCustomValidity('')" maxlength="100"> 
-       <input class="TextInput" type="text" placeholder="  Asunto" required
+       <input class="TextInput" type="text" name="Asunto" placeholder="  Asunto" required
               oninvalid="this.setCustomValidity('Porfavor ingrese el asunto de su mensaje')"
   oninput="this.setCustomValidity('')"/ maxlength="300">   
         
-        <textarea rows="auto" cols="auto" placeholder=" Porfavor, ingrese su mensaje. " required 
+        <textarea rows="auto" cols="auto" name="Mensaje" placeholder=" Porfavor, ingrese su mensaje. " required 
                   oninvalid="this.setCustomValidity('Porfavor, ingrese su mensaje.')"
   oninput="this.setCustomValidity('')" maxlength="2000"></textarea> <br>
         <input class="SubmitButton" type="submit" value="Enviar">        
