@@ -106,7 +106,7 @@ body {
     text-align: center;
    position: absolute;
      text-decoration: none;
-    margin-top: 90px;
+    margin-top: 3%;
      margin-left: 46%;
     border-radius: 5%;
      line-height: normal;
@@ -286,7 +286,7 @@ background-color: #242038;
    
 }
 .TextInput{
-    font-size: 150%;
+    font-size: 130%;
     width: 65%;
     background: #242038;
     color: #CAC4CE;
@@ -302,12 +302,12 @@ textarea {
   
  height: 20vh;
  width: 65%;
-    background: #242038;
+    background: #242038
     color: #CAC4CE;
     padding: 0.8%;
    
     margin: 1%;
-    font-size: 160%;
+    font-size: 100%;
     resize: none;
       border-radius: 10px;
     border-color: #242038;
