@@ -302,10 +302,9 @@ textarea {
   
  height: 20vh;
  width: 65%;
-    background: #242038
+    background: #242038;
     color: #CAC4CE;
     padding: 0.8%;
-   
     margin: 1%;
     font-size: 100%;
     resize: none;
